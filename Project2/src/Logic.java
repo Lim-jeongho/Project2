@@ -11,6 +11,11 @@ public class Logic {
 		y = 1;
 		System.out.println((x < 1) && (y-- < 1));
 		System.out.println("x = " + x + ", y = " + y);
+		
+		x = 1;
+		y = 1;
+		System.out.println((x < 1) ! (y-- < 1));
+		System.out.println("x = " + x + ", y = " + y);
 	
 
 	}
